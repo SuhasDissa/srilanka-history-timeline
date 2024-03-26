@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { items } from './data/timeline';
+import { Chrono } from 'react-chrono';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <Chrono items={items} mode="VERTICAL_ALTERNATING" mediaHeight={350} />
+    </main>
   );
 }
 
