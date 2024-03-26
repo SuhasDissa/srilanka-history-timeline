@@ -8,7 +8,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/vijaya.jpg"
+                url: "/srilanka-history-timeline/images/vijaya.jpg"
             }
         }
     },
@@ -19,7 +19,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/Eratosthenes-map.jpg"
+                url: "/srilanka-history-timeline/images/Eratosthenes-map.jpg"
             }
         }
     },
@@ -30,7 +30,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/sunset-at-thuparamaya-dagoba-anuradhapura.jpg"
+                url: "/srilanka-history-timeline/images/sunset-at-thuparamaya-dagoba-anuradhapura.jpg"
             }
         }
     },
@@ -41,7 +41,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg"
+                url: "/srilanka-history-timeline/images/The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg"
             }
         }
     },
@@ -52,7 +52,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/mahinda.jpg"
+                url: "/srilanka-history-timeline/images/mahinda.jpg"
             }
         }
     },
@@ -64,7 +64,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/dutugamunu.jpg"
+                url: "/srilanka-history-timeline/images/dutugamunu.jpg"
             }
         }
     },
@@ -76,23 +76,21 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/scripts.jpg"
+                url: "/srilanka-history-timeline/images/scripts.jpg"
             }
         }
     },
     {
         title: "45 AD",
         cardTitle: "Envoys from Sri Lanka visit Rome.",
-        cardDetailedText: `Annius Plocamus was a Roman tax collector from the Mediterranean, who facilitated direct trade and the first contacts between the Roman Empire and Ancient Sri Lanka, present day Sri Lanka.
-
-      The Romans had already heard about the island of Sri Lanka, which the Greeks had described under the name of Taprobane. However, according to Pliny, as described in his Natural History, it was during the reign of the Emperor Claudius (AD 41-54) that the two civilizations first met. A freedman of Annius Plocamus having farmed the customs of the Red Sea on behalf of his state's treasury, while sailing along the coast of Arabia, was driven by northern monsoon winds, passed Carmania and on the fifteenth day into Hippuros, a port of Ceylon. The freedman was entertained with hospitality by the Sri Lankan monarch, where in six months time he acquired a thorough knowledge of Tamil.
-
-      With the freedman's description of the Romans and Caesar, as well as the impressive quality of Roman coins in his possession, the Sinhalese king sent an embassy to learn more about these people. According to Pliny, the decision to send an embassy was made by the king's perception of Roman honesty when the captured denarii turned out to be of the same weight. These coins were seized as rights dictated. The embassy of four envoys were sent to Rome, including ambassador-in-chief Rasaiah/Rachias.`,
+        cardDetailedText: ["Annius Plocamus was a Roman tax collector from the Mediterranean, who facilitated direct trade and the first contacts between the Roman Empire and Ancient Sri Lanka, present day Sri Lanka."
+            , "The Romans had already heard about the island of Sri Lanka, which the Greeks had described under the name of Taprobane. However, according to Pliny, as described in his Natural History, it was during the reign of the Emperor Claudius (AD 41-54) that the two civilizations first met. A freedman of Annius Plocamus having farmed the customs of the Red Sea on behalf of his state's treasury, while sailing along the coast of Arabia, was driven by northern monsoon winds, passed Carmania and on the fifteenth day into Hippuros, a port of Ceylon. The freedman was entertained with hospitality by the Sri Lankan monarch, where in six months time he acquired a thorough knowledge of Tamil."
+            , "With the freedman's description of the Romans and Caesar, as well as the impressive quality of Roman coins in his possession, the Sinhalese king sent an embassy to learn more about these people. According to Pliny, the decision to send an embassy was made by the king's perception of Roman honesty when the captured denarii turned out to be of the same weight. These coins were seized as rights dictated. The embassy of four envoys were sent to Rome, including ambassador-in-chief Rasaiah/Rachias."],
         url: "https://en.wikipedia.org/wiki/Annius_Plocamu",
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/claudius.jpg"
+                url: "/srilanka-history-timeline/images/claudius.jpg"
             }
         }
     },
@@ -104,19 +102,19 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/tooth_relic.jpg"
+                url: "/srilanka-history-timeline/images/tooth_relic.jpg"
             }
         }
     },
     {
         title: "412 AD to 413 AD",
         cardTitle: "Fa Xian visits Anuradhapura",
-        cardDetailedText: `In the year 399 AD, a Chinese Buddhist Scholar monk named Fa-Hien embarked on a heroic odyssey, on foot,  from China to Sri Lanka crossing the great Gobi desert. He came to Anuradhapura during its glorious days. He narrates extensively on Abhayagiri Dagoba and the monastery and a priceless colossal Buddha statue carved in Jade, a gem material.
-      "Where there are now five thousand monks. There is in it a hall of Buddha, adorned with carved and inlaid work of gold and silver, and rich in the seven precious substances, in which there is an image (of the Buddha) in green jade more than twenty cubits high." He also narrated the cremation of Mahinda Thero, whom he didn't see alive, but had just arrived in time in Sri Lanka at the time of funeral. Fa-Hien's description of Anuradhapura is particularly revealing of the ancient urban planning of ancient Sri Lanka. "The dwellings of the merchants are very grand; and the side streets and main thoroughfares are level and well-kept. At all points where four roads meet there are chapels for preaching the Faith: and on the eighth, fourteenth and fifteenth of each month, a lofty dais is arranged where ecclesiastics and laymen come together from all quarters to hear the Faith expounded." Fa-Hien went on to narrate what would have been the earliest precursor to the modern Kandy Esala Perehera Pageant. "The sacred Tooth is then brought out and passes along the central street, receiving the homage of offerings as it goes by. Arriving at the Hall of the Buddha in the shrine of the Abhayagiri monastery, ecclesiastics and laymen flock together in crowds, burn incense, light lamps and perform the various ceremonies of the Faith day and night without ceasing." Fa-Hien spent two years in Sri Lanka copying the Vinaya Pitakaya of Theravada Buddhism and returned to China by sea.`,
+        cardDetailedText: ["In the year 399 AD, a Chinese Buddhist Scholar monk named Fa-Hien embarked on a heroic odyssey, on foot,  from China to Sri Lanka crossing the great Gobi desert. He came to Anuradhapura during its glorious days. He narrates extensively on Abhayagiri Dagoba and the monastery and a priceless colossal Buddha statue carved in Jade, a gem material.",
+            "\"Where there are now five thousand monks. There is in it a hall of Buddha, adorned with carved and inlaid work of gold and silver, and rich in the seven precious substances, in which there is an image (of the Buddha) in green jade more than twenty cubits high.\" He also narrated the cremation of Mahinda Thero, whom he didn't see alive, but had just arrived in time in Sri Lanka at the time of funeral.", "Fa-Hien's description of Anuradhapura is particularly revealing of the ancient urban planning of ancient Sri Lanka. \"The dwellings of the merchants are very grand; and the side streets and main thoroughfares are level and well-kept. At all points where four roads meet there are chapels for preaching the Faith: and on the eighth, fourteenth and fifteenth of each month, a lofty dais is arranged where ecclesiastics and laymen come together from all quarters to hear the Faith expounded.\"", "Fa-Hien went on to narrate what would have been the earliest precursor to the modern Kandy Esala Perehera Pageant. \"The sacred Tooth is then brought out and passes along the central street, receiving the homage of offerings as it goes by. Arriving at the Hall of the Buddha in the shrine of the Abhayagiri monastery, ecclesiastics and laymen flock together in crowds, burn incense, light lamps and perform the various ceremonies of the Faith day and night without ceasing.\"", "Fa-Hien spent two years in Sri Lanka copying the Vinaya Pitakaya of Theravada Buddhism and returned to China by sea."],
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/ma_pilgrim.jpg"
+                url: "/srilanka-history-timeline/images/ma_pilgrim.jpg"
             }
         }
     },
@@ -128,7 +126,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/buddhaghosa.jpg"
+                url: "/srilanka-history-timeline/images/buddhaghosa.jpg"
             }
         }
     },
@@ -140,7 +138,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/pandya.jpg"
+                url: "/srilanka-history-timeline/images/pandya.jpg"
             }
         }
     },
@@ -151,7 +149,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/ruwanwali-maha-saya.jpg"
+                url: "/srilanka-history-timeline/images/ruwanwali-maha-saya.jpg"
             }
         }
     },
@@ -163,7 +161,7 @@ export const items = [
         media: {
             type: "IMAGE",
             source: {
-                url: "/images/awkana.jpg"
+                url: "/srilanka-history-timeline/images/awkana.jpg"
             }
         }
     },
