@@ -173,15 +173,323 @@ export const items = [
         This act did not go unpunished. Kashyapa's younger brother, Moggallana, escaped to South India. There, he rallied an army to reclaim his rightful throne.  Kashyapa, despite his formidable Sigiriya fortress, met Moggallana's forces on the battlefield. Faced with a possibly disloyal army and the weight of his past actions, Kashyapa's reign crumbled.  During the battle, a tactical maneuver by Kashyapa was misinterpreted by his troops as a retreat, causing them to falter.  Unwilling to be captured and likely tortured, Kashyapa took his own life by his own sword, ending his tumultuous reign.`,
         url: "https://en.wikipedia.org/wiki/Kashyapa_I_of_Anuradhapura",
         media: {
-            type: "VIDEO",
+            type: "IMAGE",
             source: {
-                url: "https://www.youtube.com/embed/_Ad1jr4UDY4",
-                type: "mp4"
+                url: "/srilanka-history-timeline/images/sigiriya.jpg"
             }
         }
     },
     {
         title: "600 AD to 1000 AD",
         cardTitle: "A complicated time of alliances and conflicts between Lanka and several South Indian states, as: the Pandya, Pallava, Chola, etc.",
+    },
+    {
+        title: "1001 AD to 1017 AD",
+        cardTitle: "Cholas sack Anuradhapura.",
+        cardDetailedText: "The two great invasions (1001 - 4 and 1014 -17) by Chola Rajaraja and his son Rajendra. The bhikkhu and bhikkhuni communities at Anuradhapura die out following invasions from South India."
+    },
+    {
+        title: "1055 AD to 1110 AD",
+        cardTitle: "Reign of Vijayabahu",
+        cardDetailedText: "Vijayabahu ruled prosperously despite further incrusions (1046, 1055)"
+    },
+    {
+        title: "1073 AD",
+        cardTitle: "Native Sinhalese defeat the Cholas; new capital established at Polonnaruwa.",
+        cardDetailedText: "Bhikkhus from Pagan (Burma) arrive in Polonnaruwa, Sri Lanka to reinstate the Theravada ordination line in Sri Lanka.. Sculptures at Gal Vihara."
+    },
+    {
+        title: "1153 AD to 1186 AD",
+        cardTitle: "Reign of Parakramabahu I (The Great)",
+        cardDetailedText: "Parakramabahu I, also revered as Parakramabahu the Great, reigned over Sri Lanka from 1153 to 1186.  He is celebrated for unifying the island under his rule, a feat not achieved by many Sri Lankan monarchs.  A dedicated builder, Parakramabahu oversaw the expansion and beautification of his capital, Polonnaruwa.  His legacy extends far beyond grand structures, however.  He implemented a vast irrigation network, ensuring agricultural prosperity.  He also reformed Buddhist practices, patronized the arts, and even launched successful military campaigns in South India and Burma.  His reign is remembered as a golden age in Sri Lankan history, marked by stability, prosperity, and cultural flourishing.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/parakramabahu.jpg"
+            }
+        }
+    },
+    {
+        title: "1187 AD to 1196 AD",
+        cardTitle: "Reign of Nissanka Malla",
+        cardDetailedText: "Nissanka Malla, who ruled Sri Lanka from 1187 to 1196, left his mark on the country through grand architecture. He was a strong advocate for Buddhism and even declared that only a Buddhist could rightfully rule Sri Lanka. His reign is marked by the creation of several significant structures, including the Nissanka Lata Mandapaya, a beautiful pavilion known for its intricate stonework, and the Hatadage, a building specifically designed for the storage of sacred Buddhist texts.  He also undertook the restoration of important religious sites and irrigation tanks, showcasing his commitment to both faith and infrastructure development.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/nissanka_malla.jpg"
+            }
+        }
+    },
+    {
+        title: "1214 AD to 1236 AD",
+        cardTitle: "Kalingan invaders",
+        cardDetailedText: "Kalinga Magha, a king from the Eastern Ganga dynasty of Kalinga (present-day Odisha, India), invaded Sri Lanka with a large army. He landed in the north, securing the Jaffna peninsula, and then marched south towards the capital, Polonnaruwa. Defeating the reigning king, Parakrama Pandyan II, Magha established his rule over the island. His 21-year reign was marked by destruction and disregard for local traditions and religion, earning him the nickname \"the plague from Kalinga.\" This invasion marked a turning point in Sri Lankan history, leading to a period of political fragmentation and resistance that would last for decades.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/kalinga_magha.jpg"
+            }
+        }
+    },
+    {
+        title: "1220 AD to 1345 AD",
+        cardTitle: "Dambadeniya Period",
+        cardDetailedText: "The Dambadeniya kingdom flourished in Sri Lanka during the mid-13th century. Established in response to political instability caused by foreign invasions, Dambadeniya rose to prominence under King Vijayabahu III who strategically chose a fortified rock for the capital city. Despite its relatively short reign of about 40 years, Dambadeniya played a pivotal role in driving out invaders and defending Sri Lanka's sovereignty. The kingdom is also recognized for its cultural contributions, marking a golden age for Sinhala literature.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/dambadeniya.jpg"
+            }
+        }
+    },
+    {
+        title: "1234 AD to 1269 AD",
+        cardTitle: "Reign of Parakramabahu II",
+        cardDetailedText: "King Parakramabahu II (also known as Sri Kalikala Sahithya Sarvagna Panditha Parakramabahu of House Siri Sanga Bo) was the king who inherited the throne after King Vijayabahu. He was considered a genius, who was a great poet and a prolific writer. Among the books he wrote are Kausilumina, which is considered a great piece of literature. Unifying the three kingdoms that existed within Sri Lanka at that point of time is regarded as greatest achievement. He also repeled two attacks by a king of Tambralinga (Ligor on the Straits of Malacca), with Pandya help.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/kausilumina.jpg"
+            }
+        }
+    },
+    {
+        title: "1236 AD",
+        cardTitle: "Bhikkhus from Kañcipuram, India, arrive in Sri Lanka to revive the Theravada ordination line.",
+        cardDetailedText: "Sri Lankan Theravada Buddhism faced a crisis when the lineage to ordain new monks, known as the ordination line, was broken. To rectify this, bhikkhus, well-versed in Theravada traditions, traveled from the South Indian city of Kañcipuram to Sri Lanka. Their arrival marked a pivotal moment, as they held the authority to ordain new monks and ensure the continuation of Theravada Buddhism in Sri Lanka."
+    },
+    {
+        title: "1254 AD to 1324 AD",
+        cardTitle: "Marco Polo visits the island.",
+        cardDetailedText: "He estimates the circumference of Sri Lanka at 2400 miles, adding that it was once much bigger, measuring 3500, “as appears in the mariners' charts of this sea.” He explains, “The north wind blows so strongly in these parts that it has submerged a great part of this island under the sea.” The reference to marine charts is reason to believe that they were used by Indian Ocean sailors; however, none have survived. Then as now Sri Lanka was famous for precious stones, in particular rubies. The king owned a ruby the length of a man's palm and the thickness of his arm, flawless “and glowing red like fire.” This royal ruby is also mentioned in the seventh voyage of Sindbad; Marco Polo says Khubilai Khan sent an embassy to purchase it, but the king would not part with it. The king sent a relic of the Buddha to Khublai Khan.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/marco_polo.jpg"
+            }
+        }
+    },
+    {
+        title: "1505 AD",
+        cardTitle: "Portuguese arrive.",
+        cardDetailedText: "The first Europeans to visit Sri Lanka in modern times were the Portuguese: Francisco de Almeida arrived in 1505, finding the island divided into seven warring kingdoms and unable to fend off intruders."
+    },
+    {
+        title: "1506 AD to 1550 AD",
+        cardTitle: "Portuguese occupy the coastal areas.",
+        cardDetailedText: "The Portuguese founded a fort at the port city of Colombo in 1517 and gradually extended their control over the coastal areas.Many lowland Sinhalese were forced to convert to Christianity while the coastal Moors were religiously persecuted and forced to retreat to the Central highlands."
+    },
+    {
+        title: "1550 AD to 1600 AD",
+        cardTitle: "Vie for dominance.",
+        cardDetailedText: ["Native Singhalese kings (Rajasinha I, others) and Portuguese puppet king (Dom Jao Dharmapala) vie for dominance.", "The Battle of Mulleriyawa, fought in 1559, stands as a pivotal moment in the long-running war between the Sinhalese kingdoms and the Portuguese colonizers. The struggle for power in Sri Lanka fueled the conflict. The Portuguese, led by Jorge de Menezes, sought to expand their control over trade routes and resources, directly challenging the Sinhalese kingdoms' resistance. King Wickramasinghe Mudali of Sitawaka rose to meet this threat.",
+            "Historical accounts differ on the exact role of Don Juan Dharmapala in the battle. Some sources suggest he may have been a Sinhalese leader allied with Sitawaka, while others portray him as a Portuguese collaborator. Regardless of his allegiance, the battle itself became a turning point.",
+            "Initially, the Sinhalese forces under Wickramasinghe Mudali clashed with the Portuguese in open fields and faced difficulties. However, they cleverly lured the Portuguese into a strategic retreat. Utilizing fortified positions within the marshy terrain of Mulleriyawa, the Sinhalese, likely including forces under Don Juan Dharmapala if he was a Sinhalese ally, repelled repeated Portuguese attacks. This decisive victory inflicted heavy casualties on the Portuguese and established Sitawaka as a major power capable of challenging Portuguese dominance in Sri Lanka."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/mulleriyawa.jpg"
+            }
+        }
+    },
+    {
+        title: "1597 AD to 1815 AD",
+        cardTitle: "Kandyan Period",
+        cardDetailedText: ""
+    },
+    {
+        title: "1597 AD",
+        cardTitle: "Native capital moves to Kandy, holds out against European invaders for next 200 years.",
+        cardDetailedText: "In 1597 the Sinhalese moved their capital to the inland city of Kandy, a location more secure against attack from invaders. Intermittent warfare continued through the 16th century.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/kandy.jpg"
+            }
+        }
+    },
+    {
+        title: "1656 AD to 1796 AD",
+        cardTitle: "Dutch Colonial Period",
+        cardDetailedText: "It was in 1638 that the Dutch attacked in earnest but ended with an agreement(which was disrespected by both parties), and not until 1656 that Colombo fell. By 1660 the Dutch controlled the whole island except the kingdom of Kandy. The Dutch (who were Protestants) persecuted the Catholics (the left-over Portuguese settlers) but left the Buddhists, Hindus and Moslems alone. However, they taxed the people far more heavily than the Portuguese had done. A mixed Dutch-Sinhalese people known as Burgher peoples are the legacy of Dutch rule.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/dutch.jpg"
+            }
+        }
+    },
+    {
+        title: "1656 AD",
+        cardTitle: "Dutch oust the Portuguese.",
+        cardDetailedText: " The Buddhist majority disliked Portuguese occupation and its influences and welcomed any power who might rescue them and defeat the Portuguese. In 1602, therefore, when the Dutch captain Joris van Spilbergen landed, the king of Kandy appealed to him for help.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/spilbergen.jpg"
+            }
+        }
+    },
+    {
+        title: "1753 AD",
+        cardTitle: "Origin of the Siam Nikaya",
+        cardDetailedText: "King Kirti Sri Rajasinha obtains bhikkhus from the Thai court to reinstate the bhikkhu ordination line, which had died out in Sri Lanka. This is the origin of the Siam Nikaya of Buddhist monks."
+    },
+    {
+        title: "1796 AD to 1948 AD",
+        cardTitle: "British Colonial Period",
+        cardDetailedText: "Sri Lanka, then called Ceylon, experienced British rule from 1796 to 1948. This period began with the British East India Company taking control of the coastal areas, followed by the conquest of the Kandyan Kingdom in 1815, marking the end of a long line of Sinhalese monarchs. The British implemented an administrative system with a governor and focused on developing the island's plantation economy, particularly tea and coffee. This period had lasting impacts, including the introduction of a new legal system, infrastructure development, and demographic changes due to the arrival of Tamil laborers from South India. However, it also resulted in the exploitation of resources and labor, alongside the rise of a nationalist movement that ultimately led to Sri Lanka's independence in 1948."
+    },
+    {
+        title: "1796 AD",
+        cardTitle: "Dutch surrender to British.",
+        cardDetailedText: "During the Napoleonic Wars, Great Britain, fearing that French control of the Netherlands might deliver Sri Lanka to the French, occupied the coastal areas of the island (which they called Ceylon) with little difficulty in 1796. In 1802 by the Treaty of Amiens the Dutch part of the island was ceded to Britain, and became a crown colony. In 1803 the British invaded the Kingdom of Kandy in the 1st Kandyan War, but were bloodily repulsed. In 1815 Kandy was occupied in the 2nd Kandyan War, finally ending Sri Lankan independence.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/british.jpg"
+            }
+        }
+    },
+    {
+        title: "1802 AD",
+        cardTitle: "Ceylon (the British name for the island) becomes a Crown Colony.",
+        cardDetailedText: ""
+    },
+    {
+        title: "1803 AD",
+        cardTitle: "Origin of the Amarapura Nikaya",
+        cardDetailedText: "Sri Lankans ordained in the Burmese city of Amarapura found the Amarapura Nikaya in Sri Lanka to supplement the Siam Nikaya, which admitted only brahmins from the Up Country highlands around Kandy. "
+    },
+    {
+        title: "1815 AD",
+        cardTitle: "Last king of Kandy is deposed and exiled to India.",
+        cardDetailedText: "Sri Wickrema Rajasinghe - the last King of Kandy was captured at a historic place called Mada Maha Nuwara nestling in the mist laden Dumbara valley not far away from Kandy near Teldeniya and taken a virtual prisoner on the ill-fated day of 18th February 1815 along with his mother and two wives in the presence of Sir John D'Oly - the then Resident of the Kandyan Provinces. The King, his two wives and his mother at the time of their capture had taken refuge in a house owned by Appurala Arachchi of Demure in Udapitiyagedera in the vicinity of Mada Maha Nuwara. A commemorative stone Pillar at Mada Maha Nuwara marks the historic but tragic spot where the last king of Kandy and his royal household were captured by the British troops.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/sri_wickrama_exile.jpg"
+            }
+        }
+    },
+    {
+        title: "1862 AD",
+        cardTitle: "Origin of the Ramañña Nikaya",
+        cardDetailedText: "Forest monks headed by Ven. Paññananda go to Burma for reordination, returning to Sri Lanka the following year to found the Ramañña Nikaya."
+    },
+    {
+        title: "1870 AD",
+        cardTitle: "Coffee blight forces changeover of plantation system from growing coffee to growing tea.",
+        cardDetailedText: "By 1880, the hitherto thriving coffee industry in Ceylon had been ravaged to virtual non-existence by the blight. Nearly quarter of million acres of coffee plants were uprooted and the tea plant was accorded its pride of place instead. Thus began the great Ceylon tea industry.This tea saga of Ceylon begins with tea seeds being experimentally planted in the Peradeniya Botanical Gardens near Kandy in 1839.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/coffee.jpg"
+            }
+        }
+    },
+    {
+        title: "1873 AD",
+        cardTitle: "The revival of Buddhism got fully under way..",
+        cardDetailedText: "The revival of Buddhism got fully under way in Sri Lanka when Ven. Sri Sumangala and Ven Dharmanada established two Buddhist monastic colleges, the Vidyodaya and the Vidyolanka Pirivenas (monastic colleges), in 1873 and 1875 respectively. At about the same time a brilliant young monk, Ven. Mohottivatte Gunananda defeats Christian missionaries in a public debate, sparking a nationwide revival of Sri Lankan pride in its Buddhist traditions.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/buddhist_debate.jpg"
+            }
+        }
+    },
+    {
+        title: "1880 AD",
+        cardTitle: "Blavatsky and Olcott, arrive in Sri Lanka",
+        cardDetailedText: "Helena Blavatsky and Henry Steel Olcott, founders of the Theosophical Society, arrive in Sri Lanka from the USA, embrace Buddhism, and begin a campaign to restore Buddhism on the island by encouraging the establishment of Buddhist schools.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/olcott.jpg"
+            }
+        }
+    },
+    {
+        title: "1891 AD",
+        cardTitle: "Maha Bodhi Society founded",
+        cardDetailedText: "Maha Bodhi Society founded in India by the Sri Lankan lay follower Anagarika Dharmapala, in an effort to reintroduce Buddhism to India.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/mahabodhi.jpg"
+            }
+        }
+    },
+    {
+        title: "1948 AD",
+        cardTitle: "Ceylon declares independence.",
+        cardDetailedText: "The Sri Lankan independence movement was a peaceful political movement which aimed at achieving independence and self-rule for Ceylon from the British Empire. It was initiated around the turn of the 20th century lead mostly by the educated middle class and ultimately was successful when February 4, 1948 Ceylon was granted independence as the Dominion of Ceylon.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/independence.jpg"
+            }
+        }
+    },
+    {
+        title: "1972 AD",
+        cardTitle: "Ceylon changes name to Republic of Sri Lanka.",
+        cardDetailedText: "Dominion status within the British Commonwealth was retained for the next 24 years until May 22, 1972 when it became a republic and was renamed the Republic of Sri Lanka.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/ceylon_to_srilanka.jpg"
+            }
+        }
+    },
+    {
+        title: "1983 AD",
+        cardTitle: "Black July",
+        cardDetailedText: "Violence involving Tamil separatists resulted in nearly 400 deaths in July and August",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/black_july.jpg"
+            }
+        }
+    },
+    {
+        title: "1985 AD",
+        cardTitle: "Tamil Tigers (LTTE) emerge from Jaffna secessionist movement.",
+        cardDetailedText: ""
+    },
+    {
+        title: "1996 AD",
+        cardTitle: "Sri Lanka won the Cricket World Cup",
+        cardDetailedText: "Sri Lanka revolutionised the one-day format with their manic hitting in the first 15 overs, even while chasing, and were deserved winners. Aravinda de Silva produced a stunning all-round performance in the final to overcome Australia. The tournament was marred by controversy, though. There was the refusal by Australia and West Indies to play in Sri Lanka, and the Kolkata semi-final was awarded to Sri Lanka after the partisan crowd rioted upon seeing India crumble...",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/worldcup.jpg"
+            }
+        }
+    },
+    {
+        title: "2004 AD",
+        cardTitle: "Indian Ocean earthquake and tsunami",
+        cardDetailedText: "It was the latest day in history to end with a lower human population than it began with. The Tsunami in the Indian Ocean triggered by the most powerful earthquake on Earth in 40 years, generated the largest Tsunami in the Indian Ocean since 1883. Some of the tsunamis reached as far as 3,000 miles from the epicenter of the 9.0 magnitude quake, which was located about 100 miles (160 km) off the coast of Indonesia's Sumatra Island at a depth of about 6.2 miles (10km). Sri Lanka reported 30,196 confirmed deaths.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/tsunami.gif"
+            }
+        }
+    },
+    {
+        title: "2009 AD",
+        cardTitle: "Defeat of the LTTE",
+        cardDetailedText: "The Sri Lanka government declared total victory on 18 May 2009. On 19 May 2009 the Sri Lankan military led by General Sarath Fonseka, effectively concluded its 26 year operation against the LTTE, its military forces recaptured all remaining LTTE controlled territories in the Northern Province including Killinochchi (2 January), the Elephant Pass (9 January) and ultimately the entire district of Mullaitivu.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/ltte.jpg"
+            }
+        }
     }
 ];
