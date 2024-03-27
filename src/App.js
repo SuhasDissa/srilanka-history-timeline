@@ -1,13 +1,23 @@
 import { items } from './data/timeline';
 import { Chrono } from 'react-chrono';
+import './App.css';
 
 function App() {
   return (
-    <main className="bg-slate-100 dark:bg-slate-900">
+    <main>
+      <div className="main-container">
+        <h1 className='main-heading'><span>Sri Lankan History Timeline</span></h1>
+      </div>
       <Chrono items={items}
         mode="VERTICAL_ALTERNATING"
         mediaHeight={350}
-        disableToolbar={true} />
+        disableToolbar={true}
+        fontSizes={{
+          cardSubtitle: '1.3rem',
+          cardText: '1.15rem',
+          cardTitle: '1.3rem',
+          title: '1.3rem',
+        }} />
     </main>
   );
 }

@@ -1,0 +1,30 @@
+h1.main-heading {
+    margin-bottom: 1rem;
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1e293b;
+}
+
+h1.main-heading span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #8d153a, #eb7400, #ffbe29, #00534e);
+}
+
+div.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    h1.main-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1.main-heading {
+        font-size: 3.75rem;
+    }
+}

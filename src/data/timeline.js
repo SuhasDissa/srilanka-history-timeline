@@ -168,9 +168,8 @@ export const items = [
     {
         title: "477 AD to 495 AD",
         cardTitle: "King Kasyapa builds Sigiriya but is defeated by his brother and commits suicide on the battlefield.",
-        cardDetailedText: `King Kashyapa I of Anuradhapura (473-495 CE) was a complex and ruthless ruler.  His rise to power was stained with blood. According to legend, a minister named Migara convinced Kashyapa that his father, King Dhatusena, had hidden a vast treasure. Blinded by greed, Kashyapa imprisoned his father. There are conflicting accounts of Dhatusena's fate - some say he was entombed alive, others that he was killed. Regardless of the method, Kashyapa's actions were seen as a terrible transgression.
-
-        This act did not go unpunished. Kashyapa's younger brother, Moggallana, escaped to South India. There, he rallied an army to reclaim his rightful throne.  Kashyapa, despite his formidable Sigiriya fortress, met Moggallana's forces on the battlefield. Faced with a possibly disloyal army and the weight of his past actions, Kashyapa's reign crumbled.  During the battle, a tactical maneuver by Kashyapa was misinterpreted by his troops as a retreat, causing them to falter.  Unwilling to be captured and likely tortured, Kashyapa took his own life by his own sword, ending his tumultuous reign.`,
+        cardDetailedText: ["King Kashyapa I of Anuradhapura (473-495 CE) was a complex and ruthless ruler.  His rise to power was stained with blood. According to legend, a minister named Migara convinced Kashyapa that his father, King Dhatusena, had hidden a vast treasure. Blinded by greed, Kashyapa imprisoned his father. There are conflicting accounts of Dhatusena's fate - some say he was entombed alive, others that he was killed. Regardless of the method, Kashyapa's actions were seen as a terrible transgression.",
+            "This act did not go unpunished. Kashyapa's younger brother, Moggallana, escaped to South India. There, he rallied an army to reclaim his rightful throne.  Kashyapa, despite his formidable Sigiriya fortress, met Moggallana's forces on the battlefield. Faced with a possibly disloyal army and the weight of his past actions, Kashyapa's reign crumbled.  During the battle, a tactical maneuver by Kashyapa was misinterpreted by his troops as a retreat, causing them to falter.  Unwilling to be captured and likely tortured, Kashyapa took his own life by his own sword, ending his tumultuous reign."],
         url: "https://en.wikipedia.org/wiki/Kashyapa_I_of_Anuradhapura",
         media: {
             type: "IMAGE",
@@ -182,21 +181,52 @@ export const items = [
     {
         title: "600 AD to 1000 AD",
         cardTitle: "A complicated time of alliances and conflicts between Lanka and several South Indian states, as: the Pandya, Pallava, Chola, etc.",
+        cardDetailedText: "Between 600 and 1000 AD, Sri Lanka was a dynamic island kingdom.  South Indian dynasties like the Pallavas held influence for a period, but several local kingdoms also vied for power. This era saw a flourishing of Theravada Buddhism, with the construction of magnificent temples like Anuradhapura and Polonnaruwa. Trade thrived, connecting Sri Lanka to Southeast Asia and beyond. However, the period also witnessed conflict between rival kingdoms and occasional invasions from South India. This era laid the groundwork for Sri Lanka's rich cultural heritage and its enduring role as a center of Theravada Buddhism.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/pallava.jpg"
+            }
+        }
     },
     {
         title: "1001 AD to 1017 AD",
         cardTitle: "Cholas sack Anuradhapura.",
-        cardDetailedText: "The two great invasions (1001 - 4 and 1014 -17) by Chola Rajaraja and his son Rajendra. The bhikkhu and bhikkhuni communities at Anuradhapura die out following invasions from South India."
+        cardSubtitle: "The two great invasions (1001 - 4 and 1014 -17) by Chola Rajaraja and his son Rajendra. The bhikkhu and bhikkhuni communities at Anuradhapura die out following invasions from South India.",
+        cardDetailedText: "The island of Sri Lanka faced a series of Chola invasions during the 11th century. It began with Rajaraja Chola I's conquest of Anuradhapura, the island's capital, in 993 CE. This sparked a long conflict. Decades later, Rajaraja's son, Rajendra Chola I, launched another invasion in 1017, aiming to complete his father's work. This brutal campaign included capturing the Sinhalese king and occupying more territory, including the strategic city of Polonnaruwa. Though the Cholas established a presence for decades, they faced resistance, particularly in the south. The island wouldn't be fully under Chola control, and the Sinhalese would eventually win back their independence.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/siva_dewale.jpg"
+            }
+        }
     },
     {
         title: "1055 AD to 1110 AD",
         cardTitle: "Reign of Vijayabahu",
-        cardDetailedText: "Vijayabahu ruled prosperously despite further incrusions (1046, 1055)"
+        cardDetailedText: ["Vijayabahu I, also known as Vijayabahu the Great, was a pivotal figure in Sri Lankan history. Born into royalty around 1039, he grew up during a period of Chola occupation. Despite this, Vijayabahu rose to become king of the Ruhuna principality in the south by 1055.",
+            "His defining achievement was a long and successful campaign to liberate Sri Lanka from Chola rule. Over seventeen years, Vijayabahu's forces gradually chipped away at Chola control. Finally, in 1070, they triumphed, reunifying the island for the first time in over a century.",
+            "Following his victory, Vijayabahu established Polonnaruwa as the new capital. This city offered a more strategic location for defense against future South Indian invasions.  He also focused on reviving Buddhism, which had suffered under Chola rule, and repairing the infrastructure damaged by war.  Vijayabahu's reign marked a turning point for Sri Lanka, ushering in a new era of independence and restoration."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/vatadage.jpg"
+            }
+        }
     },
     {
         title: "1073 AD",
         cardTitle: "Native Sinhalese defeat the Cholas; new capital established at Polonnaruwa.",
-        cardDetailedText: "Bhikkhus from Pagan (Burma) arrive in Polonnaruwa, Sri Lanka to reinstate the Theravada ordination line in Sri Lanka.. Sculptures at Gal Vihara."
+        cardDetailedText: ["The Cholas were a powerful South Indian dynasty that had control over parts of Sri Lanka for some time. The reign of King Vijayabahu I (around 1055 AD), who successfully drove out the Cholas after a long struggle. This win marked a return to independence for the Sinhalese kingdom.",
+            "After defeating the Cholas, the Sinhalese king established Polonnaruwa as the new capital. This shift could be due to the strategic location of Polonnaruwa or the desire to move away from the previous capital that might have been damaged during the war.",
+            "Theravada Buddhism, the dominant religion in Sri Lanka, requires a continuous lineage of properly ordained monks. Due to the Chola rule, this ordination lineage might have been disrupted. Monks (Bhikkhus) from Pagan, another Theravada Buddhist kingdom in Burma (present-day Myanmar), came to Sri Lanka to help re-establish the proper ordination process. This act ensured the continuation of Theravada Buddhist traditions in Sri Lanka.",
+            "Sculptures at Gal Vihara: The Gal Vihara, located near Polonnaruwa, is a famous rock temple complex known for its massive granite sculptures of Buddha."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/gal_vihara.jpg"
+            }
+        }
     },
     {
         title: "1153 AD to 1186 AD",
@@ -272,12 +302,24 @@ export const items = [
     {
         title: "1505 AD",
         cardTitle: "Portuguese arrive.",
-        cardDetailedText: "The first Europeans to visit Sri Lanka in modern times were the Portuguese: Francisco de Almeida arrived in 1505, finding the island divided into seven warring kingdoms and unable to fend off intruders."
+        cardDetailedText: "The first Europeans to visit Sri Lanka in modern times were the Portuguese: Francisco de Almeida arrived in 1505, finding the island divided into seven warring kingdoms and unable to fend off intruders.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/francisco_de_almeida.jpg"
+            }
+        }
     },
     {
         title: "1506 AD to 1550 AD",
         cardTitle: "Portuguese occupy the coastal areas.",
-        cardDetailedText: "The Portuguese founded a fort at the port city of Colombo in 1517 and gradually extended their control over the coastal areas.Many lowland Sinhalese were forced to convert to Christianity while the coastal Moors were religiously persecuted and forced to retreat to the Central highlands."
+        cardDetailedText: "The Portuguese founded a fort at the port city of Colombo in 1517 and gradually extended their control over the coastal areas.Many lowland Sinhalese were forced to convert to Christianity while the coastal Moors were religiously persecuted and forced to retreat to the Central highlands.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/portuguese.jpg"
+            }
+        }
     },
     {
         title: "1550 AD to 1600 AD",
@@ -354,7 +396,13 @@ export const items = [
     {
         title: "1802 AD",
         cardTitle: "Ceylon (the British name for the island) becomes a Crown Colony.",
-        cardDetailedText: ""
+        cardDetailedText: ["For over a century, Ceylon was ruled as a British crown colony. The British established a new administrative system and focused on plantation agriculture, particularly coffee and later rubber. This led to economic growth but also social changes and the introduction of Indian Tamil labor.", "British rule had a lasting impact on Sri Lanka. Infrastructure like railways and roads were built, but there were also drawbacks. The cash crop focus led to deforestation and a decline in subsistence farming. Social tensions arose between the Sinhalese majority and Tamil minority."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/british_ceylon.jpg"
+            }
+        }
     },
     {
         title: "1803 AD",
@@ -457,7 +505,16 @@ export const items = [
     {
         title: "1985 AD",
         cardTitle: "Tamil Tigers (LTTE) emerge from Jaffna secessionist movement.",
-        cardDetailedText: ""
+        cardDetailedText: ["The Liberation Tigers of Tamil Eelam (LTTE) continued their fight for a separate Tamil homeland called Eelam. A major event was the Anuradhapura massacre in May, the deadliest attack on Sinhalese civilians by the LTTE up to that point.",
+            "An \"All Party Conference\" aimed at resolving the conflict ended without success in 1984.",
+            "The fighting moved from the Northern Province to the Eastern Province, and there were outbreaks of communal violence between Tamils and Muslims.",
+            "The government led by President Jayewardene was unable to find a solution to the conflict."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/ltte_movement.jpg"
+            }
+        }
     },
     {
         title: "1996 AD",
@@ -489,6 +546,17 @@ export const items = [
             type: "IMAGE",
             source: {
                 url: "/srilanka-history-timeline/images/ltte.jpg"
+            }
+        }
+    },
+    {
+        title: "2019 AD",
+        cardTitle: "Easter Bombings",
+        cardDetailedText: "Easter Sunday in 2019, a day meant for celebration, was tragically marred by a series of coordinated suicide bombings in Sri Lanka. Multiple locations, including churches packed with Easter worshippers and luxury hotels frequented by tourists, were targeted in a devastating attack. The bombings, claimed by a local Islamist extremist group affiliated with ISIS, shattered the peace and claimed the lives of 269 people, including innocent Sri Lankans and foreign nationals.",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/easter_sunday.jpg"
             }
         }
     }
