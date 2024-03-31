@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/srilanka-history-timeline/static/css/main.5eab3ea2.css",
-    "main.js": "/srilanka-history-timeline/static/js/main.f0e3226f.js",
+    "main.js": "/srilanka-history-timeline/static/js/main.ff4d03c6.js",
     "static/js/453.884b713f.chunk.js": "/srilanka-history-timeline/static/js/453.884b713f.chunk.js",
     "index.html": "/srilanka-history-timeline/index.html",
     "main.5eab3ea2.css.map": "/srilanka-history-timeline/static/css/main.5eab3ea2.css.map",
-    "main.f0e3226f.js.map": "/srilanka-history-timeline/static/js/main.f0e3226f.js.map",
+    "main.ff4d03c6.js.map": "/srilanka-history-timeline/static/js/main.ff4d03c6.js.map",
     "453.884b713f.chunk.js.map": "/srilanka-history-timeline/static/js/453.884b713f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eab3ea2.css",
-    "static/js/main.f0e3226f.js"
+    "static/js/main.ff4d03c6.js"
   ]
 }
