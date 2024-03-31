@@ -1,5 +1,18 @@
 export const items = [
     {
+        title: "38000 BC",
+        cardTitle: "Balangoda Man",
+        cardSubtitle: "Humans who lived 38,000 years ago in Sri Lanka",
+        cardDetailedText: ["Balangoda Man refers to hominins from Sri Lanka's late Quaternary period. The term was initially coined to refer to anatomically modern Homo sapiens from sites near Balangoda that were responsible for the island's Mesolithic 'Balangoda Culture'. The earliest evidence of Balangoda Man from archaeological sequences at caves and other sites dates back to 38,000 BCE, and from excavated skeletal remains to 30,000 BC, which is also the earliest reliably dated record of anatomically modern humans in South Asia. Cultural remains discovered alongside the skeletal fragments include geometric microliths dating to 28,500 BC, which together with some sites in Africa is the earliest record of such stone tools.", "Balangoda Man is estimated to have had thick skulls, prominent supraorbital ridges, depressed noses, heavy jaws, short necks and conspicuously large teeth. Metrical and morphometric features of skeletal fragments extracted from cave sites that were occupied during different periods have indicated a rare biological affinity over a time frame of roughly 16,000 years, and the likelihood of a partial biological continuum to the present-day Vedda indigenous people."],
+        url: "https://en.wikipedia.org/wiki/Balangoda_Man",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/balangoda.jpg"
+            }
+        }
+    },
+    {
         title: "543 BC",
         cardTitle: "Year One in the Mahavamsa.",
         cardSubtitle: "Early settlers, led by Prince Vijaya, arrive from India.",
@@ -9,6 +22,42 @@ export const items = [
             type: "IMAGE",
             source: {
                 url: "/srilanka-history-timeline/images/vijaya.jpg"
+            }
+        }
+    },
+    {
+        title: "437 BC to 459 AD",
+        cardTitle: "Early Anuradhapura Period",
+        cardDetailedText: ["The early Anuradhapura era saw the birth of Sri Lanka's Anuradhapura Kingdom. Kings like Pandukabhaya and Dutugemunu laid the foundation, while Buddhism thrived under rulers like Devanampiyatissa. Advanced irrigation and trade flourished, making Anuradhapura a powerful and influential kingdom."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/sunset-at-thuparamaya-dagoba-anuradhapura.jpg"
+            }
+        }
+    },
+    {
+        title: "437 BC to 367 BC",
+        cardTitle: "King Pandukabhaya",
+        cardSubtitle: "King of Anuradhapura from 437 BC to 367 BC",
+        cardDetailedText: ["Pandukabhaya was a king of Upatissa Nuwara and the first monarch of the Anuradhapura Kingdom and 6th over all of the island of Sri Lanka since the arrival of the Vijaya; he reigned from 437 BC to 367 BC. According to many historians and philosophers, he is the first truly Sri Lankan king since the Vijayan migration, and also the king who ended the conflict between the Sinha clan and the local clans, reorganising the population.", "He was the only child of Princess Unmadachithra (daughter of King Panduvasdew and Queen Baddhakachchana) and Prince Dighagamini (son of Prince Digayu and Princess Disala). Pandula was his teacher and Pandula's son Chandra was his advisor."],
+        url: "https://en.wikipedia.org/wiki/Pandukabhaya_of_Anuradhapura",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/pandukabhaya.jpg"
+            }
+        }
+    },
+    {
+        title: "307 BC to 267 BC",
+        cardTitle: "King Devanampiya Tissa",
+        cardSubtitle: "King of Anuradhapura from 307 BC to 267 BC",
+        cardDetailedText: ["King Devanampiya Tissa, reigning during Sri Lanka's early Anuradhapura period, left a lasting legacy. Credited with introducing Buddhism through his connection with the Indian emperor Ashoka the Great, Devanampiya Tissa became a devoted patron of the faith.  His reign saw the establishment of  monasteries like the Mahavihara and stupas, solidifying Sri Lanka's Theravada Buddhist identity. Though details of his rule might be influenced by ancient chronicles, Devanampiya Tissa remains a pivotal figure in shaping Sri Lanka's cultural and religious landscape."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg"
             }
         }
     },
@@ -24,28 +73,6 @@ export const items = [
         }
     },
     {
-        title: "250 BC to 459 AD",
-        cardTitle: "Early Anuradhapura Period",
-        cardDetailedText: ["The early Anuradhapura era saw the birth of Sri Lanka's Anuradhapura Kingdom. Kings like Pandukabhaya and Dutugemunu laid the foundation, while Buddhism thrived under rulers like Devanampiyatissa. Advanced irrigation and trade flourished, making Anuradhapura a powerful and influential kingdom."],
-        media: {
-            type: "IMAGE",
-            source: {
-                url: "/srilanka-history-timeline/images/sunset-at-thuparamaya-dagoba-anuradhapura.jpg"
-            }
-        }
-    },
-    {
-        title: "250 BC to 210 BC",
-        cardTitle: "King Devanampiya Tissa",
-        cardDetailedText: ["King Devanampiya Tissa, reigning during Sri Lanka's early Anuradhapura period, left a lasting legacy. Credited with introducing Buddhism through his connection with the Indian emperor Ashoka the Great, Devanampiya Tissa became a devoted patron of the faith.  His reign saw the establishment of  monasteries like the Mahavihara and stupas, solidifying Sri Lanka's Theravada Buddhist identity. Though details of his rule might be influenced by ancient chronicles, Devanampiya Tissa remains a pivotal figure in shaping Sri Lanka's cultural and religious landscape."],
-        media: {
-            type: "IMAGE",
-            source: {
-                url: "/srilanka-history-timeline/images/The_Sinhalese_Royal_Family_of_King_Devanampiya_Tissa_and_Prince_Uththiya.jpg"
-            }
-        }
-    },
-    {
         title: "250 BC to 200 BC",
         cardTitle: "Mahinda introducing buddhism to Sri Lanka",
         cardDetailedText: ["Mahinda, the son of Emperor Ashoka the Great, is credited with bringing Buddhism to Sri Lanka in the 3rd century BCE. Emperor Ashoka, a convert himself, actively spread Buddhism throughout Asia. Mahinda, a highly accomplished monk, traveled to Sri Lanka where he successfully introduced the religion to King Devanampiyatissa. The king's conversion had a domino effect, leading to the widespread adoption of Buddhism throughout the island. This marked a pivotal moment in Sri Lankan history, shaping its culture, art, and society for centuries to come."],
@@ -57,14 +84,51 @@ export const items = [
         }
     },
     {
+        title: "236 BC",
+        cardTitle: "Establishment of the Jaya Siri Maha Bodhi",
+        cardSubtitle: "The Buddhist nun Sangamitta Maha Theri brought the tree cutting to Sri Lanka",
+        cardDetailedText: ["Jaya Sri Maha Bodhi is a historical sacred bo tree (Ficus religiosa) in the Mahamewuna Garden in historical city of Anuradhapura, Sri Lanka. This is believed to be a tree grown from a cutting of the southern branch from the historical sacred bo tree, Sri Maha Bodhi, which was destroyed during the time of Emperor Ashoka the Great, at Buddha Gaya in India, under which Siddhartha Gautama (Buddha) attained Enlightenment. The Buddhist nun Sangamitta Maha Theri, a daughter of Indian Emperor Ashoka, in 236 BC, brought the tree cutting to Sri Lanka during the reign of Sinhalese King Devanampiya Tissa. At more than 2,300 years old, it is the oldest living human-planted tree in the world with a known planting date. The Mahavamsa, or the great chronicle of the Sinhalese, provides an elaborate account of the establishment of the Jaya Siri Maha Bodhi on the Island and the subsequent development of the site as a major Buddhist pilgrimage site."],
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/sangamiththa.jpg"
+            }
+        }
+    },
+    {
+        title: "205 BC to 161 BC",
+        cardTitle: "King Ellalan",
+        cardSubtitle: "South Indian Invader who ruled Anuradhapura",
+        cardDetailedText: ["Ellalan was a member of the Tamil Chola dynasty in Southern India, also known as \"Manu Needhi Cholan\", who upon capturing the throne became king of the Anuradhapura Kingdom, in present-day Sri Lanka, from 205 BCE to 161 BCE.", "Ellalan is traditionally presented as being a just king even by the 'Sinhalese'. The Mahavamsa states that he ruled 'with even justice toward friend and foe, on occasions of disputes at law, and elaborates how he even ordered the execution of his son for killing a calf under his chariot wheels.", "Ellalan is a peculiar figure in the history of Sri Lanka and one with particular resonance given the past ethnic strife in the country. Although he was an invader, he is often regarded as one of Sri Lanka's wisest and most just monarchs, as highlighted in the ancient Sinhalese Pali chronicle, the Mahavamsa.", "According to the chronicle, even Ellalan's nemesis Dutugamunu had a great respect for him, and ordered a monument be built where Ellalan was cremated after dying in battle. The Dakkhina Stupa was believed to be the tomb of Ellalan. Often referred to as 'the Just King', the Tamil name Ellāḷaṉ means 'the one who rules the boundary'"],
+        url: "https://en.wikipedia.org/wiki/Ellalan",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/ellalan.jpg"
+            }
+        }
+    },
+    {
         title: "161 BC to 137 BC",
         cardTitle: "King Dutugamunu unifies Sri Lanka",
-        cardDetailedText: ["Dutugamunu, also known as Dutthagamani and Gamani Abhaya, 'fearless Gamini' was a Sinhalese King of Sri Lanka who reigned from 161 BC to 137 BC. He is renowned for defeating and overthrowing Elara, the usurping Tamil prince from the Chola Kingdom, who had invaded the Kingdom of Rajarata in 205 BC. 'Dutugamunu also expanded and beautified the city of Anuradhapura and projected the power of his native Rajarata region across the island of Sri Lanka."],
+        cardDetailedText: ["Dutugamunu, also known as Dutthagamani and Gamani Abhaya, 'fearless Gamini' was a Sinhalese King of Sri Lanka who reigned from 161 BC to 137 BC. He is renowned for defeating and overthrowing Ellalan, the usurping Tamil prince from the Chola Kingdom, who had invaded the Kingdom of Rajarata in 205 BC. 'Dutugamunu also expanded and beautified the city of Anuradhapura and projected the power of his native Rajarata region across the island of Sri Lanka."],
         url: "https://en.wikipedia.org/wiki/Dutugamunu",
         media: {
             type: "IMAGE",
             source: {
                 url: "/srilanka-history-timeline/images/dutugamunu.jpg"
+            }
+        }
+    },
+    {
+        title: "103 BC, 89 BC to 77 BC",
+        cardTitle: "King Valagamba",
+        cardDetailedText: ["Valagamba, also known as the Great Black Lion, Wattagamani Abhaya and Valagambahu, was a king of the Anuradhapura Kingdom of Sri Lanka. Five months after becoming king, he was overthrown by a rebellion and an invasion from South India, but regained the throne by defeating the invaders fourteen years later. He is also known for the construction of the Abhayagiri Dagaba."],
+        url: "https://en.wikipedia.org/wiki/Valagamba_of_Anuradhapura",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/abhayagiri.jpg"
             }
         }
     },
@@ -81,6 +145,19 @@ export const items = [
         }
     },
     {
+        title: "47 BC to 42 BC",
+        cardTitle: "Queen Anula",
+        cardSubtitle: "The first queen regnant of Sri Lanka",
+        cardDetailedText: ["Queen Anula of Anuradhapura was the first queen regnant in Sri Lankan history, as well as the first documented female head of state in Asia. Anula initially rose to power as a consort of King Chore Naga (also known as Coranaga and Mahanaga), son of King Valagambahu of Anuradhapura. However, in her five-year reign, she poisoned her way through at least four other husbands and consorts, causing her to govern Rajarata on her own eventually. Queen Anula of Anuradhapura differs from another famous figure in Sri Lankan history, also named Anula. She is a different figure as she is King Devanampiyatissa's sister-in-law, the first woman in Sri Lanka to be ordained as a bikkhuni. The primary source for Anula's reign is the Mahavamsa, chapters 34 and 35."],
+        url: "https://en.wikipedia.org/wiki/Anula_of_Anuradhapura",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/anula.jpg"
+            }
+        }
+    },
+    {
         title: "45 AD",
         cardTitle: "Envoys from Sri Lanka visit Rome.",
         cardDetailedText: ["Annius Plocamus was a Roman tax collector from the Mediterranean, who facilitated direct trade and the first contacts between the Roman Empire and Ancient Sri Lanka, present day Sri Lanka."
@@ -91,6 +168,32 @@ export const items = [
             type: "IMAGE",
             source: {
                 url: "/srilanka-history-timeline/images/claudius.jpg"
+            }
+        }
+    },
+    {
+        title: "67 AD to 111 AD",
+        cardTitle: "King Vasabha",
+        cardSubtitle: "The first king of the Lambakanna dynasty",
+        cardDetailedText: ["Vasabha was a monarch of the Anuradhapura period of Sri Lanka. He is considered to be the pioneer of the construction of large-scale irrigation works and underground waterways in Sri Lanka to support paddy cultivation. 11 reservoirs and 12 canals were constructed during his reign. He also constructed several Buddhist temples in addition to renovating already existing ones. Vasabha started a new dynasty in the history of Sri Lankan monarchs, having seized the throne after killing Subharaja, the then ruler of Anuradhapura."],
+        url: "https://en.wikipedia.org/wiki/Vasabha_of_Anuradhapura",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/vasabha.jpg"
+            }
+        }
+    },
+    {
+        title: "277 AD to 304 AD",
+        cardTitle: "King Mahasena",
+        cardSubtitle: "Constructed Jethavana stupa and Minneriya tank",
+        cardDetailedText: ["Mahasena, also known in some records as Mahasen, was a king of Sri Lanka who ruled the country from 277 to 304 CE. He started the construction of large tanks or reservoirs in Sri Lanka, and built sixteen such tanks. After becoming king, Mahasena discriminated the Buddhists belonging to the Theravada-school and destroyed several of their temples including the Mahavihara (the main Theravada temple) before his chief minister led him to realise his mistakes. He mended his ways and built the Jethavana stupa. Mahasena's countrymen regarded him as a god or deity (deva) after the construction of the Minneriya tank, he became known as Minneri Deviyo (God of Minneriya)."],
+        url: "https://en.wikipedia.org/wiki/Vasabha_of_Anuradhapura",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/jetavanaramaya.jpg"
             }
         }
     },
@@ -155,7 +258,8 @@ export const items = [
     },
     {
         title: "459 AD to 477 AD",
-        cardTitle: "King Dhatusena repels Tamils but is killed by his son Kasyapa.",
+        cardTitle: "King Dhatusena",
+        cardSubtitle:"King Dhatusena repels Tamils but is killed by his son Kasyapa",
         cardDetailedText: ["After been consecrated, Dhatusena built many Viharas and 18 reservoirs including magnificent reservoir “Kala Wewa”. King Dhatusena ordered to produce an interpretation to the Deepavamsa and spent 1,000 gold coins (Kahavanu) for the work. This interpretation to Deepavamsa is considered to be “Mahavamsa”. Mahavamsa is more complete than Deepavamsa since the author Mahathera Mahanama used other older sources other than Deepavamsa. King Dhatusena had two sons (Kassapa and Moggallana) and one daughter. Due to a family problem, King Dhatusena burnt his own sister alive as a punishment. Son of the dead woman, Migara, extremely angered by this incident, banded with Kassapa and plotted against the King. They overpowered King Dhatusena and imprisoned him."],
         url: "https://en.wikipedia.org/wiki/Dhatusena_of_Anuradhapura",
         media: {
@@ -167,7 +271,8 @@ export const items = [
     },
     {
         title: "477 AD to 495 AD",
-        cardTitle: "King Kasyapa builds Sigiriya but is defeated by his brother and commits suicide on the battlefield.",
+        cardTitle: "King Kasyapa",
+        cardSubtitle:"King Kasyapa builds Sigiriya but is defeated by his brother and commits suicide on the battlefield.",
         cardDetailedText: ["King Kashyapa I of Anuradhapura (473-495 CE) was a complex and ruthless ruler.  His rise to power was stained with blood. According to legend, a minister named Migara convinced Kashyapa that his father, King Dhatusena, had hidden a vast treasure. Blinded by greed, Kashyapa imprisoned his father. There are conflicting accounts of Dhatusena's fate - some say he was entombed alive, others that he was killed. Regardless of the method, Kashyapa's actions were seen as a terrible transgression.",
             "This act did not go unpunished. Kashyapa's younger brother, Moggallana, escaped to South India. There, he rallied an army to reclaim his rightful throne.  Kashyapa, despite his formidable Sigiriya fortress, met Moggallana's forces on the battlefield. Faced with a possibly disloyal army and the weight of his past actions, Kashyapa's reign crumbled.  During the battle, a tactical maneuver by Kashyapa was misinterpreted by his troops as a retreat, causing them to falter.  Unwilling to be captured and likely tortured, Kashyapa took his own life by his own sword, ending his tumultuous reign."],
         url: "https://en.wikipedia.org/wiki/Kashyapa_I_of_Anuradhapura",
@@ -258,6 +363,19 @@ export const items = [
             type: "IMAGE",
             source: {
                 url: "/srilanka-history-timeline/images/kalinga_magha.jpg"
+            }
+        }
+    },
+    {
+        title: "1277 AD to 1283 AD",
+        cardTitle: "Aryacakravarti dynasty",
+        cardSubtitle: "Kings of the Jaffna Kingdom in Sri Lanka",
+        cardDetailedText: ["The Arya Chakravarti dynasty were kings of the Jaffna Kingdom in Sri Lanka. The earliest Sri Lankan sources, between 1277 and 1283, mention a military leader of this name as a minister in the services of the Pandyan Empire; he raided the western Sri Lankan coast and took the politically significant relic of the Buddha's tooth from the Sinhalese capital city of Yapahuwa. Political and military leaders of the same family name left a number of inscriptions in the modern-day Tamil Nadu state, with dates ranging from 1272 to 1305, during the late Pandyan Empire. According to contemporary native literature, such as Cekaracecekaramalai, the family also claimed lineage from the Arya Brahmins of the prominent Hindu pilgrimage temple of Rameswaram in the modern Ramanathapuram District of India.[1] They ruled the Jaffna kingdom from the 13th until the 17th century, when the last of the dynasty, Cankili II, was ousted by the Portuguese."],
+        url: "https://en.wikipedia.org/wiki/Aryacakravarti_dynasty",
+        media: {
+            type: "IMAGE",
+            source: {
+                url: "/srilanka-history-timeline/images/jaffna_kings.jpg"
             }
         }
     },
