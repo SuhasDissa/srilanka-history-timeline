@@ -259,7 +259,7 @@ export const items = [
     {
         title: "459 AD to 477 AD",
         cardTitle: "King Dhatusena",
-        cardSubtitle:"King Dhatusena repels Tamils but is killed by his son Kasyapa",
+        cardSubtitle: "King Dhatusena repels Tamils but is killed by his son Kasyapa",
         cardDetailedText: ["After been consecrated, Dhatusena built many Viharas and 18 reservoirs including magnificent reservoir “Kala Wewa”. King Dhatusena ordered to produce an interpretation to the Deepavamsa and spent 1,000 gold coins (Kahavanu) for the work. This interpretation to Deepavamsa is considered to be “Mahavamsa”. Mahavamsa is more complete than Deepavamsa since the author Mahathera Mahanama used other older sources other than Deepavamsa. King Dhatusena had two sons (Kassapa and Moggallana) and one daughter. Due to a family problem, King Dhatusena burnt his own sister alive as a punishment. Son of the dead woman, Migara, extremely angered by this incident, banded with Kassapa and plotted against the King. They overpowered King Dhatusena and imprisoned him."],
         url: "https://en.wikipedia.org/wiki/Dhatusena_of_Anuradhapura",
         media: {
@@ -272,7 +272,7 @@ export const items = [
     {
         title: "477 AD to 495 AD",
         cardTitle: "King Kasyapa",
-        cardSubtitle:"King Kasyapa builds Sigiriya but is defeated by his brother and commits suicide on the battlefield.",
+        cardSubtitle: "King Kasyapa builds Sigiriya but is defeated by his brother and commits suicide on the battlefield.",
         cardDetailedText: ["King Kashyapa I of Anuradhapura (473-495 CE) was a complex and ruthless ruler.  His rise to power was stained with blood. According to legend, a minister named Migara convinced Kashyapa that his father, King Dhatusena, had hidden a vast treasure. Blinded by greed, Kashyapa imprisoned his father. There are conflicting accounts of Dhatusena's fate - some say he was entombed alive, others that he was killed. Regardless of the method, Kashyapa's actions were seen as a terrible transgression.",
             "This act did not go unpunished. Kashyapa's younger brother, Moggallana, escaped to South India. There, he rallied an army to reclaim his rightful throne.  Kashyapa, despite his formidable Sigiriya fortress, met Moggallana's forces on the battlefield. Faced with a possibly disloyal army and the weight of his past actions, Kashyapa's reign crumbled.  During the battle, a tactical maneuver by Kashyapa was misinterpreted by his troops as a retreat, causing them to falter.  Unwilling to be captured and likely tortured, Kashyapa took his own life by his own sword, ending his tumultuous reign."],
         url: "https://en.wikipedia.org/wiki/Kashyapa_I_of_Anuradhapura",
