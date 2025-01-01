@@ -1,0 +1,14 @@
+---
+title: "Envoys from Sri Lanka visit Rome."
+description: "Annius Plocamus was a Roman tax collector from the Mediterranean, who facilitated direct trade and the first contacts between the Roman Empire and Ancient Sri Lanka, present day Sri Lanka.,The Romans had already heard about the island of Sri Lanka, which the Greeks had described under the name of Taprobane. However, according to Pliny, as described in his Natural History, it was during the reign of the Emperor Claudius (AD 41-54) that the two civilizations first met. A freedman of Annius Plocamus having farmed the customs of the Red Sea on behalf of his state's treasury, while sailing along the coast of Arabia, was driven by northern monsoon winds, passed Carmania and on the fifteenth day into Hippuros, a port of Ceylon. The freedman was entertained with hospitality by the Sri Lankan monarch, where in six months time he acquired a thorough knowledge of Tamil.,With the freedman's description of the Romans and Caesar, as well as the impressive quality of Roman coins in his possession, the Sinhalese king sent an embassy to learn more about these people. According to Pliny, the decision to send an embassy was made by the king's perception of Roman honesty when the captured denarii turned out to be of the same weight. These coins were seized as rights dictated. The embassy of four envoys were sent to Rome, including ambassador-in-chief Rasaiah/Rachias."
+yearText: "45 AD"
+rawYear: "45"
+heroImage: "/images/claudius.jpg"
+url: "https://en.wikipedia.org/wiki/Annius_Plocamu"
+---
+
+Annius Plocamus was a Roman tax collector from the Mediterranean, who facilitated direct trade and the first contacts between the Roman Empire and Ancient Sri Lanka, present day Sri Lanka.
+
+The Romans had already heard about the island of Sri Lanka, which the Greeks had described under the name of Taprobane. However, according to Pliny, as described in his Natural History, it was during the reign of the Emperor Claudius (AD 41-54) that the two civilizations first met. A freedman of Annius Plocamus having farmed the customs of the Red Sea on behalf of his state's treasury, while sailing along the coast of Arabia, was driven by northern monsoon winds, passed Carmania and on the fifteenth day into Hippuros, a port of Ceylon. The freedman was entertained with hospitality by the Sri Lankan monarch, where in six months time he acquired a thorough knowledge of Tamil.
+
+With the freedman's description of the Romans and Caesar, as well as the impressive quality of Roman coins in his possession, the Sinhalese king sent an embassy to learn more about these people. According to Pliny, the decision to send an embassy was made by the king's perception of Roman honesty when the captured denarii turned out to be of the same weight. These coins were seized as rights dictated. The embassy of four envoys were sent to Rome, including ambassador-in-chief Rasaiah/Rachias.

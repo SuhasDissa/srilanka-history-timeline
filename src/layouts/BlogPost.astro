@@ -1,0 +1,80 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+type Props = CollectionEntry<"timeline">["data"];
+
+const { title, description, heroImage, imageCredit, url } = Astro.props;
+---
+
+<html lang="en" class="bg-gray-50 dark:bg-gray-900">
+  <head>
+    <BaseHead title={title} description={description} image={heroImage}/>
+  </head>
+
+  <body>
+    <Header />
+    <main
+      class="pt-8 pb-16 lg:pt-16 lg:pb-24 antialiased min-h-screen"
+    >
+      <div class="flex justify-between px-4 mx-auto max-w-screen-2xl">
+        <article
+          class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert"
+        >
+          <header class="mb-4 lg:mb-6 not-format">
+            <h1
+              class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-50"
+            >
+              {title}
+            </h1>
+          </header>
+          <div class="relative rounded-3xl overflow-clip shadow-lg">
+            {heroImage && (
+              <>
+                <img width={1020} height={510} src={heroImage} alt="" />
+                {imageCredit && (
+                  <a
+                    href={imageCredit}
+                    class="absolute bottom-2 right-2 bg-gray-800 text-white text-xs px-2 py-1 rounded"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Image Credit
+                  </a>
+                )}
+              </>
+            )}
+          </div>
+          <div class="article-content">
+            <style is:inline>
+              div.article-content img {
+                border-radius: 1rem;
+                outline: 4px dotted #d1d5db;
+                border: 4px solid transparent;
+              }
+              @media (prefers-color-scheme: dark) {
+                div.article-content img {
+                  outline: 4px dotted #374151;
+                  filter: brightness(0.75);
+                }
+              }
+            </style>
+            <slot />
+            {url && (
+              <a href={url} target="_blank"
+              rel="noopener noreferrer" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+            )}
+          </div>
+        </article>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

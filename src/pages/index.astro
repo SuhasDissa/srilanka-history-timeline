@@ -1,0 +1,75 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("timeline")).sort(
+  (a, b) => parseInt(a.data.rawYear) - parseInt(b.data.rawYear)
+);
+---
+
+<!doctype html>
+<html lang="en" class="bg-gray-50 dark:bg-gray-900">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="container mx-auto w-full h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full">
+          <div
+            class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
+            style="left: 50%"
+          >
+          </div>
+
+          {
+            posts.map((post, index) => (
+              <div
+                class={`mb-8 flex justify-between items-center w-full ${
+                  index % 2 === 0
+                    ? "right-timeline"
+                    : "left-timeline flex-row-reverse"
+                }`}
+              >
+                <div class="order-1 w-5/12" />
+                <div class="z-20 p-4 flex items-center order-1 bg-gray-800 shadow-xl w-auto h-8 rounded-full">
+                  <h1 class="mx-auto font-semibold text-lg text-white">
+                    {post.data.yearText}
+                  </h1>
+                </div>
+                <div class="order-1 w-5/12 bg-gray-50 rounded-xl drop-shadow hover:drop-shadow-xl hover:-translate-y-2 duration-100 dark:bg-gray-800">
+                  <a
+                    href={`/timeline/${post.id}/`}
+                    class="block overflow-hidden rounded-t-lg"
+                  >
+                    <img
+                      class="w-full h-full object-contain"
+                      src={post.data.heroImage}
+                      alt=""
+                    />
+                  </a>
+
+                  <div class="p-5">
+                    <a href={`/timeline/${post.id}/`}>
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        {post.data.title}
+                      </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                      {post.data.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      <Footer />
+    </main>
+  </body>
+</html>

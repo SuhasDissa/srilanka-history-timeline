@@ -1,0 +1,10 @@
+---
+title: "Aryacakravarti dynasty"
+description: "The Arya Chakravarti dynasty were kings of the Jaffna Kingdom in Sri Lanka. The earliest Sri Lankan sources, between 1277 and 1283, mention a military leader of this name as a minister in the services of the Pandyan Empire; he raided the western Sri Lankan coast and took the politically significant relic of the Buddha's tooth from the Sinhalese capital city of Yapahuwa. Political and military leaders of the same family name left a number of inscriptions in the modern-day Tamil Nadu state, with dates ranging from 1272 to 1305, during the late Pandyan Empire. According to contemporary native literature, such as Cekaracecekaramalai, the family also claimed lineage from the Arya Brahmins of the prominent Hindu pilgrimage temple of Rameswaram in the modern Ramanathapuram District of India.[1] They ruled the Jaffna kingdom from the 13th until the 17th century, when the last of the dynasty, Cankili II, was ousted by the Portuguese."
+yearText: "1277 AD to 1283 AD"
+rawYear: "1277"
+heroImage: "/images/jaffna_kings.jpg"
+url: "https://en.wikipedia.org/wiki/Aryacakravarti_dynasty"
+---
+
+The Arya Chakravarti dynasty were kings of the Jaffna Kingdom in Sri Lanka. The earliest Sri Lankan sources, between 1277 and 1283, mention a military leader of this name as a minister in the services of the Pandyan Empire; he raided the western Sri Lankan coast and took the politically significant relic of the Buddha's tooth from the Sinhalese capital city of Yapahuwa. Political and military leaders of the same family name left a number of inscriptions in the modern-day Tamil Nadu state, with dates ranging from 1272 to 1305, during the late Pandyan Empire. According to contemporary native literature, such as Cekaracecekaramalai, the family also claimed lineage from the Arya Brahmins of the prominent Hindu pilgrimage temple of Rameswaram in the modern Ramanathapuram District of India.[1] They ruled the Jaffna kingdom from the 13th until the 17th century, when the last of the dynasty, Cankili II, was ousted by the Portuguese.

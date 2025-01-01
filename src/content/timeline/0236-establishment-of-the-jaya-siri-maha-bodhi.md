@@ -1,0 +1,10 @@
+---
+title: "Establishment of the Jaya Siri Maha Bodhi"
+description: "Jaya Sri Maha Bodhi is a historical sacred bo tree (Ficus religiosa) in the Mahamewuna Garden in historical city of Anuradhapura, Sri Lanka. This is believed to be a tree grown from a cutting of the southern branch from the historical sacred bo tree, Sri Maha Bodhi, which was destroyed during the time of Emperor Ashoka the Great, at Buddha Gaya in India, under which Siddhartha Gautama (Buddha) attained Enlightenment. The Buddhist nun Sangamitta Maha Theri, a daughter of Indian Emperor Ashoka, in 236 BC, brought the tree cutting to Sri Lanka during the reign of Sinhalese King Devanampiya Tissa. At more than 2,300 years old, it is the oldest living human-planted tree in the world with a known planting date. The Mahavamsa, or the great chronicle of the Sinhalese, provides an elaborate account of the establishment of the Jaya Siri Maha Bodhi on the Island and the subsequent development of the site as a major Buddhist pilgrimage site."
+yearText: "236 BC"
+rawYear: "-236"
+heroImage: "/images/sangamiththa.jpg"
+url: ""
+---
+
+Jaya Sri Maha Bodhi is a historical sacred bo tree (Ficus religiosa) in the Mahamewuna Garden in historical city of Anuradhapura, Sri Lanka. This is believed to be a tree grown from a cutting of the southern branch from the historical sacred bo tree, Sri Maha Bodhi, which was destroyed during the time of Emperor Ashoka the Great, at Buddha Gaya in India, under which Siddhartha Gautama (Buddha) attained Enlightenment. The Buddhist nun Sangamitta Maha Theri, a daughter of Indian Emperor Ashoka, in 236 BC, brought the tree cutting to Sri Lanka during the reign of Sinhalese King Devanampiya Tissa. At more than 2,300 years old, it is the oldest living human-planted tree in the world with a known planting date. The Mahavamsa, or the great chronicle of the Sinhalese, provides an elaborate account of the establishment of the Jaya Siri Maha Bodhi on the Island and the subsequent development of the site as a major Buddhist pilgrimage site.

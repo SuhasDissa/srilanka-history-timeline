@@ -1,0 +1,21 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Props = HTMLAttributes<"a">;
+
+const { href, class: className, ...props } = Astro.props;
+
+const { pathname } = Astro.url;
+const subpath = pathname.match(/[^\/]+/g);
+const isActive = href === pathname || href === "/" + subpath?.[0];
+---
+
+<a
+	href={href}
+	class={(isActive
+		? "text-white bg-gray-500 md:bg-transparent md:text-gray-500 dark:text-white md:dark:text-gray-500"
+		: "text-gray-900 hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent") +
+		" block py-2 pl-3 pr-4 rounded md:bg-transparent font-bold md:p-0"}
+	aria-current="page"
+	{...props}><slot /></a
+>

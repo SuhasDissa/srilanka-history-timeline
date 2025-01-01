@@ -1,0 +1,10 @@
+---
+title: "Tooth Relic arrives"
+description: "800 years after the Buddha's death, in the 4th century BCE, the sacred tooth relic came into the possession of King Guhaseeva. The wrath of the Brahmins and their followers, made many kings from other lands that supported them, come into war with King Guhaseeva. This made King Guhaseeva to send the tooth relic to Sri Lanka secretly in the possession of his daughter Princess Hemamala & her husband Prince Dantha since our Gauthama Buddha had declared that his religion would be safe in Sri Lanka for 5000 years. Princess Hemamala hid the relic in her hair ornament and the royal couple set sail to Sri Lanka disguised as Brahmins in order to evade capture. They landed at the Port of Lankapattana in the East of Sri Lanka. King Keerthi Sri Meghawarna, who ruled the country at the time warmly welcomed the couple and received the Sacred Tooth Relic with great veneration. He built a beautiful palace within the royal palace complex and enshrined the relic in it."
+yearText: "303 AD to 331 AD"
+rawYear: "303"
+heroImage: "/images/tooth_relic.jpg"
+url: "https://sridaladamaligawa.lk/sri-dalada-maligawa-history"
+---
+
+800 years after the Buddha's death, in the 4th century BCE, the sacred tooth relic came into the possession of King Guhaseeva. The wrath of the Brahmins and their followers, made many kings from other lands that supported them, come into war with King Guhaseeva. This made King Guhaseeva to send the tooth relic to Sri Lanka secretly in the possession of his daughter Princess Hemamala & her husband Prince Dantha since our Gauthama Buddha had declared that his religion would be safe in Sri Lanka for 5000 years. Princess Hemamala hid the relic in her hair ornament and the royal couple set sail to Sri Lanka disguised as Brahmins in order to evade capture. They landed at the Port of Lankapattana in the East of Sri Lanka. King Keerthi Sri Meghawarna, who ruled the country at the time warmly welcomed the couple and received the Sacred Tooth Relic with great veneration. He built a beautiful palace within the royal palace complex and enshrined the relic in it.
