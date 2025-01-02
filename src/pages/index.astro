@@ -21,12 +21,12 @@ const posts = (await getCollection("timeline")).sort(
       <div class="container mx-auto w-full h-full">
         <div class="relative wrap overflow-hidden p-10 h-full pt-8">
           <div class="flex items-center justify-center">
-          <img
-            src="/android-chrome-192x192.png"
-            alt="Small Round Image"
-            class="w-24 h-24 sm:w-32 sm:h-32 rounded-full"
-          />
-        </div>
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Small Round Image"
+              class="w-24 h-24 sm:w-32 sm:h-32 rounded-full"
+            />
+          </div>
           <div
             class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
             style="left: 50%"
@@ -66,9 +66,11 @@ const posts = (await getCollection("timeline")).sort(
                         {post.data.title}
                       </h5>
                     </a>
-                    <p class="hidden sm:block mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    {/*
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       {post.data.description}
                     </p>
+                  */}
                   </div>
                 </div>
               </div>
