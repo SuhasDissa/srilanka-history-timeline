@@ -19,7 +19,14 @@ const posts = (await getCollection("timeline")).sort(
     <Header />
     <main>
       <div class="container mx-auto w-full h-full">
-        <div class="relative wrap overflow-hidden p-10 h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full pt-8">
+          <div class="flex items-center justify-center">
+          <img
+            src="/android-chrome-192x192.png"
+            alt="Small Round Image"
+            class="w-24 h-24 sm:w-32 sm:h-32 rounded-full"
+          />
+        </div>
           <div
             class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
             style="left: 50%"
@@ -31,17 +38,17 @@ const posts = (await getCollection("timeline")).sort(
               <div
                 class={`mb-8 flex justify-between items-center w-full ${
                   index % 2 === 0
-                    ? "right-timeline"
-                    : "left-timeline flex-row-reverse"
+                    ? "right-timeline flex-col sm:flex-row"
+                    : "left-timeline flex-col sm:flex-row-reverse"
                 }`}
               >
-                <div class="order-1 w-5/12" />
-                <div class="z-20 p-4 flex items-center order-1 bg-gray-800 shadow-xl w-auto h-8 rounded-full">
-                  <h1 class="mx-auto font-semibold text-lg text-white">
+                <div class="order-1 w-5/12 hidden sm:block" />
+                <div class="z-20 p-4 flex items-center order-1 bg-gray-800 shadow-xl w-auto h-8 rounded-full my-4 sm:my-0">
+                  <h1 class="mx-auto font-semibold text-sm md:text-base sm:text-lg text-white">
                     {post.data.yearText}
                   </h1>
                 </div>
-                <div class="order-1 w-5/12 bg-gray-50 rounded-xl drop-shadow hover:drop-shadow-xl hover:-translate-y-2 duration-100 dark:bg-gray-800">
+                <div class="order-1 w-full sm:w-5/12 bg-gray-50 rounded-xl drop-shadow hover:drop-shadow-xl hover:-translate-y-2 duration-100 dark:bg-gray-800">
                   <a
                     href={`/timeline/${post.id}/`}
                     class="block overflow-hidden rounded-t-lg"
